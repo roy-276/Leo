@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+  background-image: url('/images/DSC_9576.JPG');
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-heading {
+  margin-top: 15px;
+}
+
+.banner-heading2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
