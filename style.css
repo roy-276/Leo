@@ -7,7 +7,7 @@
 }
 
 .banner {
-  background-image: url('/images/DSC_9576.JPG');
+  background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.1)), url('./images/DSC_9576.JPG');
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -20,6 +20,25 @@
 
 .banner-heading2 {
   font-size: 2rem;
-  color: #fff;
-  margin-bottom: 10px;
+  margin-top: 300px;
 }
+
+.banner-btn {
+  background-color: rgb(0, 0, 0) !important;
+  color: #000 !important;
+  border: none !important;
+  transition: 0.5s;
+  box-shadow: none !important;
+}
+
+.banner-btn:hover {
+  background-color: #fff !important;
+  color: rgb(36, 151, 151) !important;
+}
+
+.blog .blog-img {
+  background-image: url('/images/DSC_9584.JPG');
+  width: 50%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
